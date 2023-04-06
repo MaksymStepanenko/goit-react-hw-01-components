@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-// import css from './TransactionHistory.module.css';
+import css from './TransactionHistory.module.css';
 
 export default function TransactionLineItem({ type, amount, currency }) {
   return (
     <tr>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+      <td className={css.td}>{type}</td>
+      <td className={css.td}>{amount}</td>
+      <td className={css.td}>{currency}</td>
     </tr>
   );
 }
