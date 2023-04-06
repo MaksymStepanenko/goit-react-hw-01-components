@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+
+  border: 1px solid gray;
+  padding: 10px 0;
+}
+
+.activ {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+.inactiv {
+  margin-left: 10px;
+
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}

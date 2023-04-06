@@ -1,0 +1,25 @@
+.wrapp {
+  width: 450px;
+  border: 2px solid black;
+}
+.title {
+  text-align: center;
+}
+
+.list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 12px 15px 15px 15px;
+  /* border: 1px solid grey; */
+}
