@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './TransactionHistory.module.css';
+// import css from './TransactionHistory.module.css';
 
 export default function TransactionLineItem({ type, amount, currency }) {
   return (
